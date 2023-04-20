@@ -53,7 +53,7 @@ STATE_CODE,STATE_NAME
 52, Wisconsin
 53, Wyoming
 54, Africa
-55, California
+55,Asia
 56, Canada & Islands
 57, Central America and West Indies
 58, Europe
@@ -64,7 +64,7 @@ STATE_CODE,STATE_NAME
 63, U.S. Possessions
 64, American Samoa
 65, Guam
-66, Commonwealth of the Northern Marianas Islands
+66,CNMI
 67, Texas
 68, Florida (eff. 10/2005)
 69, Florida (eff. 10/2005)
@@ -76,4 +76,4 @@ STATE_CODE,STATE_NAME
 80, Maryland (eff. 8/2000)
 97, Northern Marianas
 98, Guam
-99, With 000 county code is American Samoa; otherwise unknown
+99,000 county code is ASA

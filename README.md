@@ -1,20 +1,21 @@
-# Synthetic Research Identifiable (RIF) Validation 
+# Synthetic Research Identifiable Files (RIF) Validation 
 This repository contains Jupyter notebooks used to validate synthetic data and provide examples illustrating use of the data.
 
 ## Contents
 
 | File | Description |
 |------|-------------|
-| CMS_User_Manual_-_Transformation_and_Analysis | A notebook containing an example of how to load and read synthea data. |
-| beneificary_final_demographics | A notebook visualizing beneficiary demographic data from the `beneficiary_final.csv` file |
-| chronic_conditions_apriori | A notebook identifying association rules using the apriori alorithm. |
+| beneficiary_final_demographics | A notebook visualizing beneficiary demographic data from the `beneficiary_2022.csv` file. |
+|beneficiary_population_count_chart.ipynb | A notebook visualizing the beneficiary population by year. |
+| chronic_conditions_apriori | A notebook identifying association rules using the apriori algorithm. |
 | claim_lines_per_claim | A notebook visualizing beneficiary claim lines per claim distributions and calculating average claim lines per claim.|
 | claimants_by_service_type | A notebook calculating the number of unique beneficiaries. |
+| cms_user_manual_transformation_and_analysis | A notebook containing an example of how to load and read synthea data. |
 | length_of_stay | A notebook calculating inpatient, SNF, and hospice length of stay (LOS) in days.  |
 | reimbursements | A notebook visualizing claim payment amount (`CLM_PMT_AMT`) distributions across service types.  |
 | requirements | A text file listing all dependencies in the repository. |
-| synthetic_readmissions_race_only_dm | A notebook predicting 30, 60, and 90-day hospital readmissions using logistic regression. |
-| synthetic_readmissions_sdoh_with_race_dm | A notebook predicting 30, 60, and 90-day hospital readmissions using logistic regression. This notebook does not contain `BENE_RACE_CD` as a predictor. |
+|synthetic_feature_selection_input.ipynb | A notebook that constructs an input dataframe to be used for feature selection. |
+| synthetic_sdoh_feature_selection_limit_feature_class.ipynb | A notebook identifying features that contribute most to the 30 day readmissions target variable. |
 | unique_claims_per_beneficiary | A notebook visualizing unique claims per beneficiary distributions. |
 
 ## Requirements 
